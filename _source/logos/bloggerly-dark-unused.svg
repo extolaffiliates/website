@@ -1,0 +1,35 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA2831" />
+      <stop offset="100%" stop-color="#be123c" />
+    </linearGradient>
+    
+    <filter id="shadow-sm" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.5" flood-color="rgba(0,0,0,0.05)" />
+    </filter>
+  </defs>
+
+  <rect 
+    x="0" 
+    y="0" 
+    width="32" 
+    height="32" 
+    rx="8" 
+    fill="url(#brand-gradient)" 
+    filter="url(#shadow-sm)"
+  />
+
+  <text 
+    x="50%" 
+    y="50%" 
+    dominant-baseline="central" 
+    text-anchor="middle" 
+    fill="#FFFFFF" 
+    font-family="Inter, sans-serif" 
+    font-weight="700" 
+    font-size="20"
+  >
+    B
+  </text>
+</svg>

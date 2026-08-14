@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The GTM automation stack, explained — Extol Affiliates</title>
+<meta name="description" content="Four layers, one order of operations. Why most AI projects in go-to-market fail at the data layer and never recover.">
+<link rel="canonical" href="https://www.extolaffiliates.com/insights-gtm-automation-stack.html">
+<meta name="theme-color" content="#0C1A11">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Extol Affiliates">
+<meta property="og:title" content="The GTM automation stack, explained — Extol Affiliates">
+<meta property="og:description" content="Four layers, one order of operations. Why most AI projects in go-to-market fail at the data layer and never recover.">
+<meta property="og:url" content="https://www.extolaffiliates.com/insights-gtm-automation-stack.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+
+<link rel="preload" href="assets/fonts/oranienbaum-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css?v=2026081241">
+
+<script>if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.className+=' js-motion';}</script>
+<script defer src="assets/js/vendor/gsap.min.js?v=2026081241"></script>
+<script defer src="assets/js/vendor/ScrollTrigger.min.js?v=2026081241"></script>
+<script defer src="assets/js/main.js?v=2026081241"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="header">
+  <div class="shell header__inner">
+    <a class="wordmark" href="index.html" aria-label="Extol Affiliates &#8212; home">
+      <svg class="wordmark__mark" viewBox="0 0 26 26" fill="none" aria-hidden="true" focusable="false"><path d="M3.5 21.4 L9.9 15.5 L16.1 17.9 L22.4 5.6" stroke="currentColor" stroke-width="1.35" stroke-linecap="square" stroke-linejoin="miter"/><circle cx="3.5" cy="21.4" r="1.85" fill="currentColor"/><circle cx="9.9" cy="15.5" r="1.85" fill="currentColor"/><circle cx="16.1" cy="17.9" r="1.85" fill="currentColor"/><circle class="wordmark__node" cx="22.4" cy="5.6" r="2.5"/></svg>
+      <span class="wordmark__text">Extol <span>Affiliates</span></span>
+    </a>
+
+    <div class="header__right">
+      <a target="_blank" rel="noopener" class="btn btn--sm header__cta" href="https://calendly.com/admin-extolaffiliates/30min">Book a call</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+        <span class="sr-only">Open menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="nav" id="primary-nav" aria-label="Primary">
+  <ul class="nav__list">
+    <li><a class="nav__link" href="index.html"><span class="idx" aria-hidden="true">01</span>Home</a></li>
+    <li><a class="nav__link" href="insights.html" aria-current="page"><span class="idx" aria-hidden="true">02</span>Insights</a></li>
+    <li><a class="nav__link" href="about.html"><span class="idx" aria-hidden="true">03</span>About</a></li>
+    <li><a class="nav__link" href="contact.html"><span class="idx" aria-hidden="true">04</span>Contact</a></li>
+  </ul>
+  <div class="nav__foot">
+    <a href="mailto:admin@extolaffiliates.com">admin@extolaffiliates.com</a>
+    <a href="https://www.linkedin.com/" rel="noopener">LinkedIn</a>
+    <span>Global &#183; Remote</span>
+  </div>
+</nav>
+
+<main id="main">
+<section class="page-hero" data-field>
+  <svg class="field-bg" viewBox="0 0 1000 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="fieldGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#0C1A11"/>
+        <stop offset=".55" stop-color="#1B3A22"/>
+        <stop offset="1" stop-color="#25482A"/>
+      </linearGradient>
+    </defs>
+    <rect width="1000" height="900" fill="url(#fieldGrad)"/>
+    <g data-motif>
+      <rect class="plane" x="150" y="60"  width="700" height="900" fill="#7E9A5E" opacity=".07"/>
+      <rect class="plane" x="190" y="110" width="620" height="850" fill="#8CA967" opacity=".08"/>
+      <rect class="plane" x="230" y="160" width="540" height="800" fill="#9AB771" opacity=".09"/>
+      <rect class="plane" x="270" y="210" width="460" height="750" fill="#A8C47B" opacity=".10"/>
+      <rect class="plane" x="310" y="260" width="380" height="700" fill="#B6D186" opacity=".12"/>
+      <rect class="plane" x="350" y="310" width="300" height="650" fill="#C6DE93" opacity=".14"/>
+      <rect class="plane" x="390" y="360" width="220" height="600" fill="#D6E9A4" opacity=".16"/>
+      <rect class="plane" x="430" y="410" width="140" height="550" fill="#E6F2B8" opacity=".18"/>
+    </g>
+  </svg>
+  <div class="shell page-hero__inner">
+    <p class="label" data-reveal data-reveal-now>Systems &#183; July 2026</p>
+      <h1 class="h1" data-split data-split-now>The GTM automation stack, explained.</h1>
+    <div class="page-hero__lead" data-reveal data-reveal-now>
+      <p class="small">7 min read</p>
+      <p class="small mt-s"><a class="arrow-link" href="insights.html">All insights</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell grid">
+    <div class="col-7">
+      <article class="prose" data-reveal>
+        <p class="lead">
+          Almost every stalled AI project we get called in to rescue has the same shape.
+          The agent works. The demo was genuinely impressive. And it has been six months
+          with nothing in production. The problem is nearly always three layers below
+          where everyone is looking.
+        </p>
+
+        <p>
+          There are four layers to a go-to-market automation stack, and they only work
+          bottom-up. You can skip a layer and still get a demo. You cannot skip a layer
+          and get a system.
+        </p>
+
+        <h2>Layer one: data</h2>
+        <p>
+          Not &#8220;all your data&#8221;. Nobody has clean data and waiting for it is a way of
+          never starting. What you need is a small, defined set of fields that the
+          workflow in question depends on, and agreement on what each one means.
+        </p>
+        <p>
+          That second part is the one people skip. We have sat in rooms where sales and
+          finance had different definitions of an active account and neither knew, because
+          the disagreement had been living quietly inside two dashboards for three years.
+          No amount of model quality survives that. The agent will confidently do the wrong
+          thing, at scale, and the first person to notice will be a customer.
+        </p>
+        <p>The test for this layer: can two people from different teams independently produce the same number from the same question? If not, you are not ready to automate on top of it.</p>
+
+        <h2>Layer two: logic</h2>
+        <p>
+          Rules a human would agree with, written down before anything runs. If this
+          account crosses that threshold, it goes to that owner. If a document fails
+          validation, the client gets this message. If nobody replies in five days, stop.
+        </p>
+        <p>
+          There is a strong pull to hand this layer to a model, because writing rules is
+          tedious and models are good at seeming to have judgement. Resist it for anything
+          deterministic. A rule is inspectable, testable, cheap and identical every time
+          it runs. A model asked to do a rule&#8217;s job is none of those, and when it drifts
+          you will find out slowly.
+        </p>
+        <blockquote>
+          Use the model where the rules genuinely run out. Not before.
+        </blockquote>
+
+        <h2>Layer three: agent</h2>
+        <p>
+          Now the interesting part &#8212; and it is a smaller part than the market suggests.
+          The agent handles what rules cannot: reading unstructured text, summarising a
+          call, drafting something in context, deciding which of six situations this
+          message resembles.
+        </p>
+        <p>Three things make this layer hold up in production:</p>
+        <ol>
+          <li><strong>Grounding.</strong> The agent answers from your documents and cites which one it used. If it cannot cite, it says so rather than filling the gap.</li>
+          <li><strong>Thresholds.</strong> Below a confidence line it hands to a human, with its reasoning attached. Handover is a feature, not a failure.</li>
+          <li><strong>Evaluations.</strong> A fixed set of real cases with known-good answers, run on every change. Without this you cannot tell whether last Tuesday&#8217;s prompt edit made things better or quietly worse.</li>
+        </ol>
+        <p>
+          The evaluation point is the one teams skip most and regret hardest. Prompt
+          changes feel free. They are not free &#8212; they are untested deploys to production,
+          and treating them as anything else is how quality erodes without a single alarm
+          going off.
+        </p>
+
+        <h2>Layer four: surface</h2>
+        <p>
+          Where your team actually meets the work. This is the layer most projects get
+          exactly backwards: they build a beautiful new interface nobody opens.
+        </p>
+        <p>
+          The best surface is almost always one your team already lives in. A Slack
+          message in the channel they watch. A field populated in the CRM record they had
+          open anyway. A draft sitting in the inbox they were about to check. If using
+          the automation requires remembering to visit something, adoption decays &#8212; not
+          immediately, but within about a quarter, and quietly.
+        </p>
+
+        <h2>Why the order is the whole point</h2>
+        <p>
+          Build top-down and every layer beneath becomes a constraint you discover late.
+          The agent is impressive in the demo because the demo used three hand-picked
+          records. In production it meets the field that means two different things, the
+          rule nobody wrote down, and the interface nobody opens.
+        </p>
+        <p>
+          Build bottom-up and something useful ships at every layer. Fixing the data
+          alone makes reporting trustworthy. Adding the rules alone removes most of the
+          waiting. By the time you reach the agent, it is doing the small, genuinely hard
+          part &#8212; which is what it is good at, and all you should have been asking of it.
+        </p>
+
+        <hr>
+
+        <p class="small">
+          If you want to know which layer you are actually standing on, that is what the
+          first two weeks of our engagements are for. <a target="_blank" rel="noopener" href="https://calendly.com/admin-extolaffiliates/30min">Book a call</a>
+          and we will tell you, whether or not there is a project in it for us.
+        </p>
+      </article>
+    </div>
+
+    <aside class="col-5-end" data-reveal>
+      <svg class="diagram iso" viewBox="-20 -34 985 860" data-iso role="img"
+       aria-label="Four layers of a go-to-market system drawn as stacked planes. From the bottom: data, the one agreed source of truth; logic, rules a human would agree with; agent, judgement only where the rules run out; and surface, where your team already works. Each layer rests on the one beneath it.">
+
+  <!-- ---------- DATA (bottom) ---------- -->
+  <g class="iso-layer" data-layer="0">
+    <g transform="translate(300,420) matrix(.866,.5,-.866,.5,0,0)">
+      <rect class="iso-plane iso-plane--4" width="380" height="260"/>
+      <rect class="iso-marker" x="250" y="200" width="110" height="20"/>
+    </g>
+    <path class="iso-lead" d="M382 678 V754"/>
+    <text class="iso-label" x="382" y="774" text-anchor="middle">DATA</text>
+    <text class="iso-sub" x="382" y="792" text-anchor="middle">ONE AGREED SOURCE</text>
+  </g>
+
+  <!-- ---------- LOGIC ---------- -->
+  <g class="iso-layer" data-layer="1">
+    <g transform="translate(300,330) matrix(.866,.5,-.866,.5,0,0)">
+      <rect class="iso-plane iso-plane--3" width="380" height="260"/>
+      <rect class="iso-marker" x="60" y="180" width="110" height="20"/>
+    </g>
+    <path class="iso-lead" d="M235 482 V690 H206"/>
+    <text class="iso-label" x="200" y="686" text-anchor="end">LOGIC</text>
+    <text class="iso-sub" x="200" y="704" text-anchor="end">RULES, NOT GUESSES</text>
+  </g>
+
+  <!-- ---------- AGENT ---------- -->
+  <g class="iso-layer" data-layer="2">
+    <g transform="translate(300,240) matrix(.866,.5,-.866,.5,0,0)">
+      <rect class="iso-plane iso-plane--2" width="380" height="260"/>
+      <rect class="iso-marker" x="240" y="34" width="110" height="20"/>
+    </g>
+    <path class="iso-lead" d="M517 409 V206 H700"/>
+    <text class="iso-label" x="708" y="202">AGENT</text>
+    <text class="iso-sub" x="708" y="220">ONLY WHERE RULES END</text>
+  </g>
+
+  <!-- ---------- SURFACE (top) ---------- -->
+  <g class="iso-layer" data-layer="3">
+    <g transform="translate(300,150) matrix(.866,.5,-.866,.5,0,0)">
+      <rect class="iso-plane iso-plane--1" width="380" height="260"/>
+      <rect class="iso-marker iso-marker--accent" x="60" y="50" width="110" height="20"/>
+    </g>
+    <path class="iso-lead iso-lead--accent" d="M348 237 V72"/>
+    <text class="iso-label iso-label--accent" x="348" y="36" text-anchor="middle">SURFACE</text>
+    <text class="iso-sub" x="348" y="56" text-anchor="middle">WHERE YOUR TEAM ALREADY WORKS</text>
+  </g>
+</svg>
+
+      <div class="frame mt-m">
+        <span class="frame__cap">The four tests</span>
+        <ul class="ticks" style="margin-top:.5rem">
+          <li>Can two teams produce the same number?</li>
+          <li>Is every deterministic decision a written rule?</li>
+          <li>Does every answer cite a source?</li>
+          <li>Does it appear where they already work?</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section panel--field">
+  <div class="shell grid">
+    <div class="cta__head" data-reveal>
+      <p class="label">Next step</p>
+      <h2 class="display mt-s" data-split>Which layer are you on?</h2>
+      <p class="lead mt-s">
+        Most teams think they&#8217;re on three and are actually on one. Thirty minutes
+        is usually enough to find out.
+      </p>
+      <div class="hero__actions">
+        <a target="_blank" rel="noopener" class="btn" href="https://calendly.com/admin-extolaffiliates/30min">Book a call</a>
+        <a class="arrow-link" href="insights.html">More insights</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="shell">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="wordmark" href="index.html" aria-label="Extol Affiliates &#8212; home">
+          <svg class="wordmark__mark" viewBox="0 0 26 26" fill="none" aria-hidden="true" focusable="false"><path d="M3.5 21.4 L9.9 15.5 L16.1 17.9 L22.4 5.6" stroke="currentColor" stroke-width="1.35" stroke-linecap="square" stroke-linejoin="miter"/><circle cx="3.5" cy="21.4" r="1.85" fill="currentColor"/><circle cx="9.9" cy="15.5" r="1.85" fill="currentColor"/><circle cx="16.1" cy="17.9" r="1.85" fill="currentColor"/><circle class="wordmark__node" cx="22.4" cy="5.6" r="2.5"/></svg>
+          <span class="wordmark__text">Extol <span>Affiliates</span></span>
+        </a>
+        <p class="footer__blurb">AI automation and consulting for go-to-market teams. We build the systems, then hand you the keys.</p>
+        <p class="footer__blurb"><a href="mailto:admin@extolaffiliates.com">admin@extolaffiliates.com</a></p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="https://drive.google.com/open?id=1EP_wfvxBJv5d7JkCX8e6oRJzN0A_Vbgy&amp;usp=drive_fs" target="_blank" rel="noopener">Certificates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:admin@extolaffiliates.com">Email</a></li>
+          <li><a target="_blank" rel="noopener" href="https://calendly.com/admin-extolaffiliates/30min">Book a call</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <svg class="footer__wordmark" viewBox="0 0 1000 130" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false">
+      <text x="0" y="104" textLength="1000" lengthAdjust="spacing">EXTOL AFFILIATES</text>
+    </svg>
+
+    <!-- Credentials. Replace the bracketed text with the real certificate,
+         issuer and year — see CONTENT-TODO.md §6b. Delete the whole block if
+         you decide not to run them. -->
+    <div class="footer__bottom">
+      <span>&copy; <span data-year>2026</span> Extol Affiliates Ltd</span>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

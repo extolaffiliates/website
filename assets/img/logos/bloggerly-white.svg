@@ -1,0 +1,19 @@
+<!-- Bloggerly, reversed for dark backgrounds: white badge with the letterform
+     knocked out, so the background shows through the B. Derived from the
+     supplied bloggerly.svg (red badge, white B). The drop shadow in the
+     original is dropped — the design system bans shadows. -->
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="bloggerly-knockout">
+      <rect x="0" y="0" width="32" height="32" rx="8" fill="#FFFFFF"/>
+      <text x="50%" y="50%"
+            dominant-baseline="central"
+            text-anchor="middle"
+            fill="#000000"
+            font-family="Archivo, Inter, Helvetica, Arial, sans-serif"
+            font-weight="700"
+            font-size="20">B</text>
+    </mask>
+  </defs>
+  <rect x="0" y="0" width="32" height="32" rx="8" fill="#FFFFFF" mask="url(#bloggerly-knockout)"/>
+</svg>

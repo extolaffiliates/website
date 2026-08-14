@@ -1,0 +1,9 @@
+# Internal working documents — never publish these.
+# CONTENT-TODO.md in particular lists which figures are illustrative and which
+# quotes are unwritten; it would be readable at /CONTENT-TODO.md otherwise.
+*.md
+.DS_Store
+
+# Original un-processed brand assets. Kept for re-export, not for serving —
+# these are the full-size files (a 1920x1080 logo, 1.4 MB of font TTFs).
+_source
